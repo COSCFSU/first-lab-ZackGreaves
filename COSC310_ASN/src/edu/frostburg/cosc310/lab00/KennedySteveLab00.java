@@ -4,7 +4,7 @@
  * 
  * Please put your name, date, and brief description of this class here.
  */
-package edu.frostburg.cosc310.lab00;
+package src.edu.frostburg.cosc310.lab00;;
 
 /**
  * Your documentation should begin here.
@@ -50,8 +50,9 @@ public class KennedySteveLab00 implements Lab00 {
     }
 
     @Override
-    public long problem2() {
+    public long problem2(int size) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
+   
 }
