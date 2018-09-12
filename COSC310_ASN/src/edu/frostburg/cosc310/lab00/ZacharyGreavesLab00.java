@@ -55,7 +55,7 @@ public class ZacharyGreavesLab00 implements Lab00 {
         return end - start;
     }
     /**
-     * Makes a long String using concatenation
+     * Makes an ArrayList and LinkedList
      * @param size the # of times looped
      * @return how long it took in milliseconds
      */
@@ -65,10 +65,10 @@ public class ZacharyGreavesLab00 implements Lab00 {
         long start = System.currentTimeMillis();
         
         for (int i=0; i<size; i++){
-            Integer.toString(i);
-            MyList.add(i);
-           
-        }
+           String str1 = Integer.toString(i);
+            MyList.add(str1);
+           }
+        long end = System.currentTimeMillis();
         
           throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         
