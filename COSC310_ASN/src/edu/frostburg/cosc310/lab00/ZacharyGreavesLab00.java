@@ -56,21 +56,22 @@ public class ZacharyGreavesLab00 implements Lab00 {
     }
     /**
      * Makes an ArrayList and LinkedList
-     * @param size the # of times looped
+     * @param
      * @return how long it took in milliseconds
      */
     
-    public long problem2(int size) {
+    public long problem2() {
         List<String> MyList = new ArrayList<>();
         long start = System.currentTimeMillis();
         
-        for (int i=0; i<size; i++){
+        for (int i=0; i<0; i++){
            String str1 = Integer.toString(i);
             MyList.add(str1);
            }
         long end = System.currentTimeMillis();
+        return end - start;
         
-          throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+     
         
     }
     
